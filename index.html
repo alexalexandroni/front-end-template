@@ -36,396 +36,433 @@
         <![endif]-->
 		
 		<div class="page">
-		
-			<div class="container-fluid">	
+			<div class="container-fluid">								
 				<h1>Front-end Template</h1>
 			</div>
-			
-			<div class="container-fluid sm-offset" id="smallOffset">		
+			<div class="container-fluid">
+				<h2>Why do we need a <i>Front-end Template</i>?</h2>
+				<p>
+				Starting a new project, most of us were in a position to ask ourselves: how should i start? what tools should I use? how should I structure the files (CSS, images, fonts, JavaScript)? and many other similar questions. 
+				This tool - <b>Front-end Template</b> - tries to answer these questions by containing some of the most popular and useful tools on the web that are applicable to all browsers.
+				<br>
+				It can help you start a new project much easier!
+				</p>
+			</div>
+			<div class="container-fluid">
+				<h2>What does <i>Front-end Template</i> contains?</h2>
+				<p>It uses <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a> structure that already includes:</p>
+				<ul>
+					<li>the new HTML5 elements</li>
+					<li><code>normalize.css</code> for CSS normalizations across all browsers (Chrome, Firefox, IE8+, Opera, Safari)</li>
+					<li><a href="http://jquery.com/">jQuery</a> (the most used JavaScript library) and <a href="http://modernizr.com/">Modernizr</a> for feature detection</li>
+					<li>and other stuff that you can check out in the code provided here</li>
+				</ul>
 				
-				<h2>Small offset</h2>
-				<div class="row-fluid">					
+				<p>In addition we included:</p>
+				<ul>
+					<li><a href="http://selectivizr.com/">selectivizr</a> which emulates CSS3 pseudo-classes and attribute selectors in IE6-8</li>
+					<li><a href="http://webdesignerwall.com/tutorials/cross-browser-html5-placeholder-text">cross browser HTML5 placeholder script</a> located in <code>main.js</code></li>
+					<li>and a responsive grid system based on the <a href="http://getbootstrap.com/css/#grid">Twitter Bootstrap Grid System</a>, but more easy to use.</li>
+				</ul>				
+				
+			</div>
+			<div class="container-fluid">									
+				<h2>Simple grid system</h2>
+				<small>This is a modified version of <a href="http://getbootstrap.com/css/#grid">Twitter Bootstrap Grid System</a>.</small>
+				<p>
+					The main difference between Twitter Bootstrap Grid System and this one contains in:
+				</p>
+				<ul>
+					<li>a practical use with less columns: 1, 2, or 3</li>
+					<li>use of descriptive classes like <code>.column-one-third</code>(33%), <code>.column-half</code>(50%), <code>.column-third</code>(75%) or <code>.column-full</code>(100%)</li>
+					<li>a simple, easy to modify and use grid system</li>
+				</ul>
+				<p>Look to the examples below to see how the grid works and how you can apply it to your code.</p>
+			</div>
+			
+			<div class="container-fluid sm-offset" id="smallSpace">		
+				
+				<h2>Small spacing between grids</h2>
+				<div class="row">					
 					<div class="column column-one-third">
-						<div class="column-padding">
+						<div class="column-inner">
 							33%							
 						</div>
 					</div>
 					
 					<div class="column column-one-third">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							33%
 						</div>
 					</div>
 
 					<div class="column column-one-third">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							33%
 						</div>
 					</div>					
 				</div>
-				<div class="row-fluid">					
+				<div class="row">					
 					<div class="column column-half">
-						<div class="column-padding">
+						<div class="column-inner">
 							50%							
 						</div>
 					</div>
 					
 					<div class="column column-half">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							50%
 						</div>
 					</div>					
 				</div>
 				
-				<div class="row-fluid">					
+				<div class="row">					
 					<div class="column column-third">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							75%
 						</div>
 					</div>
 					
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>					
 				</div>
-				<div class="row-fluid">
+				<div class="row">
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 					
 					<div class="column column-third">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							75%
 						</div>
 					</div>					
 				</div>
-				<div class="row-fluid row-3">
+				<div class="row">
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 					
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 					
 					<div class="column column-half">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							50%
 						</div>
 					</div>					
 				</div>
-				<div class="row-fluid row-3">
+				<div class="row">
 					<div class="column column-half">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							50%
 						</div>
 					</div>
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 					
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>										
 				</div>
-				<div class="row-fluid row-3">
+				<div class="row">
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 					<div class="column column-half">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							50%
 						</div>
 					</div>					
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>										
 				</div>
-				<div class="row-fluid">										
+				<div class="row">										
 					<div class="column column-full">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							100%
 						</div>
 					</div>										
 				</div>	
-			</div> <!-- END #smallOffset -->
+			</div> <!-- END #smallSpace -->
 			
-			<div class="container-fluid" id="mediumOffset">
-				<h2>Medium offset</h2>
-				<div class="row-fluid">					
+			<div class="container-fluid" id="mediumSpace">
+				<h2>Medium spacing between grids</h2>
+				<div class="row">					
 					<div class="column column-one-third">
-						<div class="column-padding">
+						<div class="column-inner">
 							33%							
 						</div>
 					</div>
 					
 					<div class="column column-one-third">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							33%
 						</div>
 					</div>
 
 					<div class="column column-one-third">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							33%
 						</div>
 					</div>					
 				</div>
-				<div class="row-fluid">					
+				<div class="row">					
 					<div class="column column-half">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							50%
 						</div>
 					</div>
 					
 					<div class="column column-half">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							50%
 						</div>
 					</div>					
 				</div>
 				
-				<div class="row-fluid">					
+				<div class="row">					
 					<div class="column column-third">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							75%
 						</div>
 					</div>
 					
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>					
 				</div>
-				<div class="row-fluid">
+				<div class="row">
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 					
 					<div class="column column-third">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							75%
 						</div>
 					</div>					
 				</div>
-				<div class="row-fluid row-3">
+				<div class="row">
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 					
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 					
 					<div class="column column-half">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							50%
 						</div>
 					</div>					
 				</div>
-				<div class="row-fluid row-3">
+				<div class="row">
 					<div class="column column-half">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							50%
 						</div>
 					</div>
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 					
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>										
 				</div>
-				<div class="row-fluid row-3">
+				<div class="row">
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 					<div class="column column-half">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							50%
 						</div>
 					</div>					
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>										
 				</div>
-				<div class="row-fluid">										
+				<div class="row">										
 					<div class="column column-full">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							100%
 						</div>
 					</div>										
 				</div>		
-			</div> <!-- END #mediumOffset -->
+			</div> <!-- END #mediumSpace -->
 			
-			<div class="container-fluid lg-offset" id="largeOffset">	
-				<h2>Large offset</h2>
-				<div class="row-fluid">					
+			<div class="container-fluid lg-offset" id="largeSpace">	
+				<h2>Large spacing between grids</h2>
+				<div class="row">					
 					<div class="column column-one-third">
-						<div class="column-padding">
+						<div class="column-inner">
 							33%							
 						</div>
 					</div>
 					
 					<div class="column column-one-third">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							33%
 						</div>
 					</div>
 
 					<div class="column column-one-third">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							33%
 						</div>
 					</div>					
 				</div>
-				<div class="row-fluid">					
+				<div class="row">					
 					<div class="column column-half">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							50%
 						</div>
 					</div>
 					
 					<div class="column column-half">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							50%
 						</div>
 					</div>					
 				</div>
 				
-				<div class="row-fluid">					
+				<div class="row">					
 					<div class="column column-third">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							75%
 						</div>
 					</div>
 					
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>					
 				</div>
-				<div class="row-fluid">
+				<div class="row">
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 					
 					<div class="column column-third">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							75%
 						</div>
 					</div>					
 				</div>
-				<div class="row-fluid row-3">
+				<div class="row">
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 					
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 					
 					<div class="column column-half">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							50%
 						</div>
 					</div>					
 				</div>
-				<div class="row-fluid row-3">
+				<div class="row">
 					<div class="column column-half">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							50%
 						</div>
 					</div>
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 					
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>										
 				</div>
-				<div class="row-fluid row-3">
+				<div class="row">
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 					<div class="column column-half">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							50%
 						</div>
 					</div>					
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>										
 				</div>
-				<div class="row-fluid">										
+				<div class="row">										
 					<div class="column column-full">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							100%
 						</div>
 					</div>										
-				</div>		
+				</div>				
 				
-				
-			</div> <!-- END #largeOffset -->
-			
+			</div> <!-- END #largeSpace -->			
 			
 			<div class="container-fluid" id="nestedGrids">	
 				<h2>Nested grids</h2>
-				<div class="row-fluid">					
+				<div class="row">					
 					<div class="column column-one-third">
-						<div class="column-padding">
+						<div class="column-inner">
 							33%
-							<div class="row-fluid">
+							<div class="row">
 								<div class="column column-full">
-									<div class="column-padding">						
+									<div class="column-inner">						
 										100%
 									</div>	
 								</div>								
@@ -434,16 +471,16 @@
 					</div>
 					
 					<div class="column column-one-third">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							33%
-							<div class="row-fluid">
+							<div class="row">
 								<div class="column column-half">
-									<div class="column-padding">						
+									<div class="column-inner">						
 										50%
 									</div>	
 								</div>
 								<div class="column column-half">
-									<div class="column-padding">						
+									<div class="column-inner">						
 										50%
 									</div>
 								</div>
@@ -452,23 +489,23 @@
 					</div>
 
 					<div class="column column-one-third">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							33%
 						</div>
 					</div>					
 				</div>
-				<div class="row-fluid">					
+				<div class="row">					
 					<div class="column column-half">
-						<div class="column-padding">
+						<div class="column-inner">
 							50%	
-							<div class="row-fluid">
+							<div class="row">
 								<div class="column column-half">
-									<div class="column-padding">						
+									<div class="column-inner">						
 										50%
 									</div>	
 								</div>
 								<div class="column column-half">
-									<div class="column-padding">						
+									<div class="column-inner">						
 										50%
 									</div>
 								</div>
@@ -477,16 +514,16 @@
 					</div>
 					
 					<div class="column column-half">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							50%
-							<div class="row-fluid">
+							<div class="row">
 								<div class="column column-third">
-									<div class="column-padding">						
+									<div class="column-inner">						
 										75%
 									</div>	
 								</div>
 								<div class="column column-quarter">
-									<div class="column-padding">						
+									<div class="column-inner">						
 										25%
 									</div>
 								</div>
@@ -494,18 +531,18 @@
 						</div>
 					</div>					
 				</div>
-				<div class="row-fluid">					
+				<div class="row">					
 					<div class="column column-full">
-						<div class="column-padding">
+						<div class="column-inner">
 							100%	
-							<div class="row-fluid">
+							<div class="row">
 								<div class="column column-half">
-									<div class="column-padding">						
+									<div class="column-inner">						
 										50%
 									</div>	
 								</div>
 								<div class="column column-half">
-									<div class="column-padding">						
+									<div class="column-inner">						
 										50%
 									</div>
 								</div>
@@ -513,30 +550,30 @@
 						</div>
 					</div>							
 				</div>
-				<div class="row-fluid">					
+				<div class="row">					
 					<div class="column column-full">
-						<div class="column-padding">
+						<div class="column-inner">
 							100%	
-							<div class="row-fluid">
+							<div class="row">
 								<div class="column column-third">
-									<div class="column-padding">						
+									<div class="column-inner">						
 										75%
 									</div>	
 								</div>
 								<div class="column column-quarter">
-									<div class="column-padding">						
+									<div class="column-inner">						
 										25%
 									</div>
 								</div>
 							</div>
-							<div class="row-fluid">
+							<div class="row">
 								<div class="column column-third column-push-third">
-									<div class="column-padding">						
+									<div class="column-inner">						
 										75%
 									</div>	
 								</div>
 								<div class="column column-quarter column-pull-quarter">
-									<div class="column-padding">						
+									<div class="column-inner">						
 										25%
 									</div>
 								</div>
@@ -549,100 +586,62 @@
 				
 				
 			<div class="container-fluid" id="colOrder">	
-				<h2>Column ordering</h2>
-				<div class="row-fluid">					
-					<div class="column column-one-third">
-						<div class="column-padding">
-							33%							
-						</div>
-					</div>
-					
-					<div class="column column-one-third">
-						<div class="column-padding">						
-							33%
-						</div>
-					</div>
-
-					<div class="column column-one-third">
-						<div class="column-padding">						
-							33%
-						</div>
-					</div>					
-				</div>
-				<div class="row-fluid">					
-					<div class="column column-one-third column-push-one-third">
-						<div class="column-padding">
-							33%							
-						</div>
-					</div>
-					
-					<div class="column column-one-third">
-						<div class="column-padding">						
-							33%
-						</div>
-					</div>
-
-					<div class="column column-one-third  column-pull-one-third">
-						<div class="column-padding">						
-							33%
-						</div>
-					</div>					
-				</div>
+				<h2>Column ordering</h2>				
 				
-				<div class="row-fluid">
+				<div class="row">
 					<div class="column column-half">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							50%
 						</div>	
 					</div>
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 				</div>
-				<div class="row-fluid">
+				<div class="row">
 					<div class="column column-half column-push-half">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							50%
 						</div>	
 					</div>
 					<div class="column column-quarter column-pull-third">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 					<div class="column column-quarter column-pull-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 				</div>
-				<div class="row-fluid">
+				<div class="row">
 					<div class="column column-third">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							75%
 						</div>	
 					</div>
 					<div class="column column-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
 				</div>
-				<div class="row-fluid">
+				<div class="row">
 					<div class="column column-third column-push-third">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							75%
 						</div>	
 					</div>
 					<div class="column column-quarter column-pull-quarter">
-						<div class="column-padding">						
+						<div class="column-inner">						
 							25%
 						</div>
 					</div>
