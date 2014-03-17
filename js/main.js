@@ -1,3 +1,13 @@
+/*------------------------------------------------------------------
+[Master JS]
+
+Project:	 Front-end Template
+Version:	 1
+Last change: 17/03/14
+Assigned to: Alex
+Description: Contains general js. 
+-------------------------------------------------------------------*/
+
 $(document).ready(function(){
 
     // Cross-Browser HTML5 Placeholder Text
