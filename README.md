@@ -2,7 +2,7 @@
 
 <h2>Why do we need a <i>Front-end Template</i>?</h2>
 <p>
-Starting a new project, most of us were in a position to ask ourselves: how should i start? what tools should I use? how should I structure the files (CSS, images, fonts, JavaScript)? and many other similar questions. 
+Starting a new project, most of us were in a position to ask ourselves: how should I start? what tools should I use? how should I structure the files (CSS, images, fonts, JavaScript)? and many other similar questions. 
 This tool - <b>Front-end Template</b> - tries to answer these questions by containing some of the most popular and useful tools on the web that are applicable to all browsers.
 <br>
 It can help you start a new project much easier!

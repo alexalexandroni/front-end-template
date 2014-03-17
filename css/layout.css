@@ -1,3 +1,51 @@
+/*------------------------------------------------------------------
+[Layout Stylesheet]
+
+Project:	 Front-end Template
+Version:	 1
+Last change: 17/03/14 [fixed Float bug]
+Assigned to: Alex
+Description: This stylesheet contains the css "skeleton".
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2. Header / #header
+3. Navigation / #navbar
+4. Content / #content
+5. Left column / #leftcolumn
+6. Right column / #rightcolumn
+7. Sidebar / #sidebar
+8. RSS / #rss
+9. Search / #search
+10. Boxes / .box
+11. Sideblog / #sideblog
+12. Advertisements / .ads
+13. Footer / #footer
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Color codes]
+
+Background:	#ffffff (white)
+Content:	#1e1e1e (light black)
+Header h1:	#9caa3b (green)
+Header h2:	#ee4117 (red)
+Footer:		#b5cede (dark black)
+
+a (standard):	#428bca (dark blue)
+a (visited):	#5999de (light blue)
+a (active):	#cc0000 (pink)
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Typography]
+
+Body copy:		14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+Headers:		2.7em/1.3em "Helvetica Neue", Helvetica, Arial, sans-serif;
+Input, textarea:	1.1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+Sidebar heading:	1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+-------------------------------------------------------------------*/
+
 *,
 *:before,
 *:after {
@@ -12,6 +60,7 @@ body {
   color: #333333;
   background-color: #ffffff;
 }
+
 a {
   color: #428bca;
   text-decoration: none;
@@ -25,4 +74,13 @@ a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
+}
+
+code {
+	padding: 2px 4px;
+	font-size: 90%;
+	color: #249E29;
+	background-color: #F9F2F4;
+	white-space: nowrap;
+	border-radius: 4px;
 }
